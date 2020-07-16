@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Food Ordering System</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/checkoutpage.css">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-home">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">The Foodie</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart" style="font-size: 35px;color: white; padding-top: px;" aria-hidden="true"></span></a></li>
+          <li><a href="#">USER NAME</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <div class="container">
+       <div class="row">
+           <div class="col-md-8 checkout">
+               <div class="customer-details">
+                   <div class="row">
+                    <h1>Checkout</h1>
+                    <p><b>Customer details</b></p>
+                    <div class="flex-container">
+                        <input type="text" class="form-control customer-input" placeholder="First name" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control customer-input" placeholder="Last name" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="flex-container">
+                        <input type="text" class="form-control customer-input" placeholder="Phone number" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control customer-input" placeholder="Area of delivery" aria-describedby="basic-addon1">
+                    </div>
+                   </div>
+
+                   <div class="row">
+                       <div class="delivery">
+                           <h1>Delivery method</h1>
+                           <p>How do you want your food to be delivered?</p>
+                           <label class="container radioButtons">Delivered at work or home
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                          </label>
+                          
+                          <label class="container radioButtons">Pickup at one of our branches
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                    
+
+                    
+                           <div class="payment">
+                               <h1>Payment Method</h1>
+                               <p>How do you want to pay for your order?</p>
+                               <label class="container radioButtons">MTN
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+                              
+                              <label class="container radioButtons">Vodafone
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                              </label>
+
+                              <label class="container radioButtons">Airtel-Tigo
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                              </label>
+                           </div>
+                        </div>   
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+            <div class="total-price text-center">
+                <p><b>Subtotal:</b> Ghc 50.00</p>
+                <p><b>Delivery Fee:</b> Ghc 2.00</p>
+                <p class="total-fee"><b>Total Fee</b></p>
+                <p>Ghc 52.00</p>
+                <a href="thankyoupage.html"><button type="button" class="btn btn-default align-center checkout-button">Proceed</button></a>
+              </div>
+           </div>
+       </div>
+   </div>                                                                                                                                                       
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <p class="text-center">&copy: 2019 Canvas. All Right Reserved</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

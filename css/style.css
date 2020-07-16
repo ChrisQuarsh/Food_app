@@ -1,0 +1,86 @@
+body {
+  background-image: url('../img/pasta-with-vegetable-dish-on-gray-plate-beside-tomato-fruit-769969.jpg');
+  background-size: cover;
+  height: 500px;
+  color: black;
+  font-family: serif;
+}
+
+.navbar-home {
+    background-color: #ea5b31;
+    height: 60px;
+    width: 100%;
+    border-color:#ea5b31 ;
+    margin-bottom: 0px;
+}
+
+
+.navbar-home .navbar-nav>li>a {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar-home .navbar-nav>li>a:hover,
+.navbar-home .navbar-nav>li>a:focus {
+  background-color: white;
+  color: black;
+}
+
+.navbar-home .navbar-brand {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.navbar-home .navbar-brand:hover,
+.navbar-home .navbar-brand:focus {
+  color: #35312c;
+}
+
+.login-form{
+background-color: aquamarine;
+padding: 130px 0px 130px 0px;
+margin-left: 300px;
+background: transparent;
+}
+
+.control {
+  font-size: 2rem;
+  position: relative;
+  text-align: left;
+}
+
+.signin-button {
+  background-color: #ea5b31;
+  border-color: transparent;
+  color: #fff;
+  align-items: center;
+  padding: 10px 129px;
+}
+
+.input{
+  width: 100%;
+  padding: 10px 10px;
+}
+a{
+  color: #3c44a3;
+}
+/*
+.content{
+  overflow: auto;
+  position: absolute;
+  top: 59px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}*/
+
+
+
+
+.footer {
+  background: #ea5b31;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  padding: 20px;
+  font-size: 18px;
+}
